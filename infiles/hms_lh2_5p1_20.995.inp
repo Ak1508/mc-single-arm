@@ -2,15 +2,15 @@
 ! Input file for MC_SINGLE_ARM 					
 !------------------------------------------------------------------------------
      2000000	Monte-Carlo trials
-        2       Spectrometer (1=HMS, 2=SHMS, 3=..)
+        1       Spectrometer (1=HMS, 2=SHMS, 3=..)
      5100	Spectrometer momentum (in MeV/c)
      21.0	Spectrometer angle (in degrees)C
     -15.0	M.C. DP/P  down limit 
-     25.0	M.C. DP/P  up   limit 
-    -65.0	M.C. Theta ( dy/dz) down limit (mr)
-     65.0	M.C. Theta down limit (mr)
-    -60.0	M.C. Phi (dx/dz)  down limit (mr)
-     60.0	M.C. Phi   down limit (mr)C
+     15.0	M.C. DP/P  up   limit 
+    -50.0	M.C. Theta ( dy/dz) down limit (mr)
+     50.0	M.C. Theta down limit (mr)
+    -100.0	M.C. Phi (dx/dz)  down limit (mr)
+     100.0	M.C. Phi   down limit (mr)C
      0.060	Horiz beam spot size in cm (Full width of +/- 3 sigma)
      0.060	Vert  beam spot size in cm (Full width of +/- 3 sigma)
      10.00  	Length of target (Full width, cm)
